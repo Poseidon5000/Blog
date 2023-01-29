@@ -1,38 +1,36 @@
-.App {
-  text-align: center;
+/* body{
+    background-image: url(./finder/git.png);
+} */
+.github-logo{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 1.5rem;
+   border-bottom: 1px solid black;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+
+.searcher{
+    display: flex;
+    flex-direction: row;  
+    margin-bottom: 1.5rem;
+     
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.prompt{
+    border-radius: none;
+    margin-left: 1rem;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.first{
+    margin-right: .7rem;
+    
 }
 
-.App-link {
-  color: #61dafb;
+.username{
+    border-radius: none;
+    padding: 2rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+
+
